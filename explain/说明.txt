@@ -1,0 +1,17 @@
+https://github.com/408056173/RNApp
+
+运行react-native run-android时出现错误
+EPERM：operation not permitted,lstat ..............
+解决办法：用Android Studio打开项目后Clean Project再运行react-native run-android就可以了
+
+rd  /s /q可以删除非空目录
+react-native init 'proName'
+react-native run-android
+
+安装包，默认会安装最新的版本
+复制代码 代码如下:
+npm install gulp@3.9.1
+
+npm install
+npm cache clean
+
