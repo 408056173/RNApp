@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-import Index from './App/Views/Index/index.js'
+import Index from './App/Views/Index/login.js'
 
 export default class RNApp extends Component {
   render() {
@@ -49,4 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('RNApp', () => RNApp);
+AppRegistry.registerComponent('RNApp', () => Index);

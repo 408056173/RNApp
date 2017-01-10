@@ -1,0 +1,10 @@
+//apsl-react-native-button    lodash.isequal
+//npm cache clean
+
+Installation
+Using npm:
+
+$ {sudo -H} npm i -g npm
+$ npm i --save lodash.isequal
+In Node.js:
+var isEqual = require('lodash.isequal');
